@@ -350,7 +350,7 @@
 			{
 				display: inline;
 				content: '\2022';
-				opacity: 0.3;
+				opacity: 0.5;
 			}
 		
 			ul.links li:first-child:before
