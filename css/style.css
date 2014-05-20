@@ -208,7 +208,14 @@ a, a:hover{
 .text > h4 { color: #fff; margin-bottom: 0px; }
 .text > p { font-size: 14px; color: #dcdcdc; line-height: 18px; }
 .big { background: #232323; width: 339px; overflow: hidden; float:left; margin-right: 6px; }
-#bars-content .content{ font-size: 16px; background: #121212; padding: 18px;} 
+#bars-content .content{
+	font-size: 16px;
+	background: #121212;
+	padding: 18px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+} 
 .jqbar.active {}
 
 /* Social Stats */
