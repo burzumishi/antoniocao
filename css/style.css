@@ -253,7 +253,7 @@ a, a:hover{
 /*----------------------------------------*/
 /*----- Portfolio -----*/
 /*----------------------------------------*/
-    #portfolio {
+#portfolio {
 	overflow:hidden;
 	
 }
@@ -270,8 +270,9 @@ a, a:hover{
 	margin-top: 8px;
 	
 }
-#portfolio ul
-{list-style:none;
+
+#portfolio ul {
+	list-style:none;
 }
 /* Filter menu */
 	#portfolio-filter {
@@ -334,12 +335,12 @@ a, a:hover{
 }
 .jqbar.active .bar-level, .jqbar.hover .bar-level
 {
-	background-color:rgb(24, 141, 98)!important;
+	background-color:rgb(255, 0, 0)!important;
 }
 
  .flip-container
         {
-			width:100%;
+	    width:100%;
             -webkit-perspective: 1000;
             -moz-perspective: 1000;
             perspective: 1000;
