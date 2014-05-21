@@ -335,7 +335,7 @@ a, a:hover{
 }
 .jqbar.active .bar-level, .jqbar.hover .bar-level
 {
-	background-color:rgb(255, 0, 0)!important;
+	background-color:rgb(255, 50, 50)!important;
 }
 
  .flip-container
