@@ -19,9 +19,9 @@ $text = "<strong>Email = </strong>".$email."<br>";
 $text .= "<strong>Name = </strong>".$name."<br><br>";  
 
 if(!empty($message)) {
-    $text .= "Sender did not write any message for you!<br>";
-} else {
     $text .= $message."<br>";
+} else {
+    $text .= "Sender did not write any message for you!<br>";
 }
 
 @mail($send_email_to, $email_subject, $text, $headers);
