@@ -3,8 +3,7 @@ body{
 	font-size: 18px;
 	color: #efefef;
 	line-height: 30px;
-	/* background: url(../img/penguins-opensource.jpg); */
-	background: url(../img/opensource.jpg);
+	background: url(../img/penguins-opensource.jpg);
 	background-size: 100% 100%, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
